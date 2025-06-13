@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --color-bg: #212539;
+  --color-row-yellow: #DAAA00;
+  --color-row-offwhite: #D9D9D9;
+}
+
+.bg-custom {
+  background-color: var(--color-bg);
+}
+
+.btn-primary-yellow {
+  background-color: var(--color-row-yellow);
+}
+
+.btn-secondary-yellow {
+  border: 3px solid var(--color-row-yellow);
+}
+
+.demand-box {
+  background-color: var(--color-row-offwhite);
+}
