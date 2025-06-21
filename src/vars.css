@@ -11,12 +11,10 @@
 
 .btn-primary-yellow {
   background-color: var(--color-row-yellow);
+  color: black;
 }
 
 .btn-secondary-yellow {
   border: 3px solid var(--color-row-yellow);
-}
-
-.demand-box {
-  background-color: var(--color-row-offwhite);
+  background-color: transparent;
 }

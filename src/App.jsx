@@ -37,80 +37,76 @@ function App() {
         <img src="/src/assets/row-logo.png" className="" />
       </div>
       {/* Demands Section */}
-      <div className="flex flex-col justify-between px-[150px]">
-        <p className="text-[64px] font-semibold">We Demand...</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] text-black text-[20px]">
-          <div className="demand-box flex flex-row gap-[16px] rounded-xl p-6">
-            <div className="w-[70px] h-[70px] flex-shrink-0 flex items-center justify-center">
-              <img
-                src="/src/assets/MetNotification.svg"
-                className="w-[70px] h-[70px]"
-              />
-            </div>
+      <div className="flex flex-col px-[150px] pb-[70px]">
+        <p className="text-[64px] font-semibold pb-[25px]">We Demand...</p>
+        <div className="grid grid-cols-2 gap-[40px]">
+          <div className="flex flex-row gap-[15px]">
+            <img src="src/assets/MetNotification.svg" className="" />
             <p>
               ... that any ResLife student staff never be assigned to share a
               living space with residents or a bedroom with any other
               individuals.
             </p>
           </div>
-          <div className="demand-box flex flex-row gap-[16px] rounded-xl p-6">
-            <div className="w-[70px] h-[70px] flex-shrink-0 flex items-center justify-center">
-              <img
-                src="/src/assets/MetNotification.svg"
-                className="w-[70px] h-[70px]"
-              />
-            </div>
+          <div className="flex flex-row gap-[15px]">
+            <img src="src/assets/MetNotification.svg" className="" />
             <p>
               ... that any ResLife student staff never be assigned to share a
               living space with residents or a bedroom with any other
               individuals.
             </p>
           </div>
-          <div className="demand-box flex flex-row gap-[16px] rounded-xl p-6">
-            <div className="w-[70px] h-[70px] flex-shrink-0 flex items-center justify-center">
-              <img
-                src="/src/assets/AddressedNotification.svg"
-                className="w-[70px] h-[70px]"
-              />
-            </div>
+          <div className="flex flex-row gap-[15px]">
+            <img src="src/assets/AddressedNotification.svg" className="" />
             <p>
               ... that any ResLife student staff never be assigned to share a
               living space with residents or a bedroom with any other
-              individuals.... that any ResLife student staff never be assigned
-              to share a living space with residents or a bedroom with any other
-              individuals.... that any ResLife student staff never be assigned
-              to share a living space with residents or a bedroom with any other
               individuals.
             </p>
           </div>
-          <div className="demand-box flex flex-row gap-[16px] rounded-xl p-6">
-            <div className="w-[70px] h-[70px] flex-shrink-0 flex items-center justify-center">
-              <img
-                src="/src/assets/AddressedNotification.svg"
-                className="w-[70px] h-[70px]"
-              />
-            </div>
+          <div className="flex flex-row gap-[15px]">
+            <img src="src/assets/AddressedNotification.svg" className="" />
             <p>
               ... that any ResLife student staff never be assigned to share a
               living space with residents or a bedroom with any other
-              individuals.... that any ResLife student staff never be assigned
-              to share a living space with residents or a bedroom with any other
-              individuals.... that any ResLife student staff never be assigned
-              to share a living space with residents or a bedroom with any other
               individuals.
             </p>
           </div>
-          <div className="demand-box flex flex-row gap-[16px] rounded-xl p-6">
-            <div className="w-[70px] h-[70px] flex-shrink-0 flex items-center justify-center">
-              <img
-                src="/src/assets/UnaddressedNotification.svg"
-                className="w-[70px] h-[70px]"
-              />
-            </div>
+          <div className="flex flex-row gap-[15px]">
+            <img src="src/assets/AddressedNotification.svg" className="" />
             <p>
-              hello world this demand has not been addressed by Purdue how sad
+              ... that any ResLife student staff never be assigned to share a
+              living space with residents or a bedroom with any other
+              individuals.
             </p>
           </div>
+          <div className="flex flex-row gap-[15px]">
+            <img src="src/assets/UnaddressedNotification.svg" className="" />
+            <p>
+              ... that any ResLife student staff never be assigned to share a
+              living space with residents or a bedroom with any other
+              individuals.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* Intimidation Reporting */}
+      <div className="flex flex-row justify-between items-center px-[150px] pb-[70px] gap-[50px]">
+        <div className="space-y-[24px]">
+          <p className="text-[64px] font-semibold">Intimidation Reporting</p>
+          <p className="text-[24px]">
+            Has a professional staff member made you feel uncomfortable or
+            threatened regarding your participation in union activity?{" "}
+            <span className="font-bold">Let us know!</span> It is illegal for
+            supervisors to threaten or coerce you regarding your participation
+            in union activity.
+          </p>
+          <button className="btn-primary-yellow w-[275px] h-[80px] rounded-[40px] text-[24px]">
+            Email Us
+          </button>
+        </div>
+        <div>
+          <img src="src/assets/IntimidationReporting.png" className="" />
         </div>
       </div>
     </div>
