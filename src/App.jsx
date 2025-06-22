@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Demands from "./components/Demands";
 import Intimidation from "./components/Intimidation";
+import PressReleases from "./components/PressReleases";
 
 function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false);
@@ -39,54 +40,7 @@ function App() {
         <Hero />
         <Demands />
         <Intimidation />
-        {/* Press Releases */}
-        <div className="flex flex-col justify-between px-[150px]">
-          <p className="text-[64px] font-semibold">Press Releases</p>
-          <div className="flex flex-col gap-[18px]">
-            <div className="flex flex-row items-center">
-              <div className="flex flex-col leading-[1]">
-                <p className="text-[64px]">01</p>
-                <p className="text-[20px]">MAY 25'</p>
-              </div>
-              <div className="w-[5px] h-[100px] bg-white rotate-[15deg] mx-6"></div>
-              <div>
-                <p className="text-[24px] font-semibold">
-                  Purdue RAs discuss unionizing as overcrowded dorms cause
-                  concern
-                </p>
-                <p className="text-[20px] italic">The Exponent</p>
-              </div>
-            </div>
-            <div className="flex flex-row items-center">
-              <div className="flex flex-col leading-[1]">
-                <p className="text-[64px]">01</p>
-                <p className="text-[20px]">MAY 25'</p>
-              </div>
-              <div className="w-[5px] h-[100px] bg-white rotate-[15deg] mx-6"></div>
-              <div>
-                <p className="text-[24px] font-semibold">
-                  Purdue RAs discuss unionizing as overcrowded dorms cause
-                  concern
-                </p>
-                <p className="text-[20px] italic">The Exponent</p>
-              </div>
-            </div>
-            <div className="flex flex-row items-center">
-              <div className="flex flex-col leading-[1]">
-                <p className="text-[64px]">01</p>
-                <p className="text-[20px]">MAY 25'</p>
-              </div>
-              <div className="w-[5px] h-[100px] bg-white rotate-[15deg] mx-6"></div>
-              <div>
-                <p className="text-[24px] font-semibold">
-                  Purdue RAs discuss unionizing as overcrowded dorms cause
-                  concern
-                </p>
-                <p className="text-[20px] italic">The Exponent</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <PressReleases />
         {/* FAQ */}
         <div className="flex flex-col justify-between px-[150px]">
           <p className="text-[64px] font-semibold">FAQ</p>
