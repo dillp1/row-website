@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="text-white bg-custom min-h-screen">
-      <main className="flex flex-col space-y-[70px] pt-[70px]">
+      <main className="flex flex-col space-y-[50px] pt-[50px]">
         <Header />
         <Hero />
         <Demands />
