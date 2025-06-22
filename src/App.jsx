@@ -7,6 +7,7 @@ import Demands from "./components/Demands";
 import Intimidation from "./components/Intimidation";
 import PressReleases from "./components/PressReleases";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,14 +19,7 @@ function App() {
         <Intimidation />
         <PressReleases />
         <FAQ />
-        {/* Footer */}
-        <div className="footer flex flex-row justify-between items-center px-[150px]">
-          <p className="text-[64px] font-semibold">ROW</p>
-          <div className="flex flex-row gap-[10px]">
-            <img src="src/assets/instagram.svg" />
-            <img src="src/assets/mail.svg" />
-          </div>
-        </div>
+        <Footer />
       </main>
     </div>
   );
