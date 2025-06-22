@@ -9,7 +9,7 @@ function Header() {
       <p className="font-bold">ROW</p>
 
       {/* Desktop Nav */}
-      <nav className="hidden lg:flex flex-row gap-[50px]">
+      <nav className="header-nav hidden lg:flex flex-row gap-[50px]">
         <a href="#demands">Demands</a>
         <a href="#intimidation">Intimidation</a>
         <a href="#press">Press</a>
@@ -40,7 +40,7 @@ function Header() {
 
       {/* Mobile Nav */}
       {isMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-[#11182c] flex flex-col items-center gap-4 py-4 text-[20px] lg:hidden">
+        <div className="header-nav absolute top-full left-0 w-full bg-[#11182c] flex flex-col items-center gap-4 py-4 text-[20px] lg:hidden">
           <a href="#demands" onClick={() => setIsMenuOpen(false)}>
             Demands
           </a>

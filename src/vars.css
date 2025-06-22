@@ -22,3 +22,7 @@
 .footer {
   background-color: #12131A;
 }
+
+.header-nav a {
+  color: white !important;
+}
