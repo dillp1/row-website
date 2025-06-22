@@ -3,6 +3,8 @@ import "./vars.css";
 
 import { useState } from "react";
 
+import Header from "./components/Header";
+
 function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false);
 
@@ -30,17 +32,7 @@ function App() {
   return (
     <div className="text-white bg-custom min-h-screen">
       <main className="flex flex-col space-y-[70px] pt-[70px]">
-        {/* Header Section */}
-        <div className="flex flex-row justify-between items-center px-[150px] text-[32px]">
-          <p className="font-bold">ROW</p>
-          <div className="flex flex-row gap-[50px]">
-            <p>Demands</p>
-            <p>Intimidation</p>
-            <p>Press</p>
-            <p>FAQ</p>
-            <p>Contact</p>
-          </div>
-        </div>
+        <Header />
         {/* Hero Section */}
         <div className="flex flex-row justify-between items-center px-[150px]">
           <div className="flex flex-col space-y-[25px]">
