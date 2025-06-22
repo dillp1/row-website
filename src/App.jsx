@@ -29,7 +29,7 @@ function FAQItem({ question, answer }) {
 function App() {
   return (
     <div className="text-white bg-custom min-h-screen">
-      <main className="flex flex-col space-y-[70px] py-[70px]">
+      <main className="flex flex-col space-y-[70px] pt-[70px]">
         {/* Header Section */}
         <div className="flex flex-row justify-between items-center px-[150px] text-[32px]">
           <p className="font-bold">ROW</p>
@@ -198,6 +198,14 @@ function App() {
             question="What does the acronym ROW stand for?"
             answer="ROW stands for ResLife Organized Workers—the official name of our union."
           />
+        </div>
+        {/* Footer */}
+        <div className="footer flex flex-row justify-between items-center px-[150px]">
+          <p className="text-[64px] font-semibold">ROW</p>
+          <div className="flex flex-row gap-[10px]">
+            <img src="src/assets/instagram.svg" />
+            <img src="src/assets/mail.svg" />
+          </div>
         </div>
       </main>
     </div>
