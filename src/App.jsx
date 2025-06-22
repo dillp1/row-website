@@ -6,6 +6,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Demands from "./components/Demands";
+import Intimidation from "./components/Intimidation";
 
 function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false);
@@ -37,25 +38,7 @@ function App() {
         <Header />
         <Hero />
         <Demands />
-        {/* Intimidation Reporting */}
-        <div className="flex flex-row justify-between items-center px-[150px] gap-[50px]">
-          <div className="space-y-[24px]">
-            <p className="text-[64px] font-semibold">Intimidation Reporting</p>
-            <p className="text-[24px]">
-              Has a professional staff member made you feel uncomfortable or
-              threatened regarding your participation in union activity?{" "}
-              <span className="font-bold">Let us know!</span> It is illegal for
-              supervisors to threaten or coerce you regarding your participation
-              in union activity.
-            </p>
-            <button className="btn-primary-yellow w-[275px] h-[80px] rounded-[40px] text-[24px]">
-              Email Us
-            </button>
-          </div>
-          <div>
-            <img src="src/assets/IntimidationReporting.png" className="" />
-          </div>
-        </div>
+        <Intimidation />
         {/* Press Releases */}
         <div className="flex flex-col justify-between px-[150px]">
           <p className="text-[64px] font-semibold">Press Releases</p>
