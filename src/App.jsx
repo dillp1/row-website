@@ -4,6 +4,8 @@ import "./vars.css";
 import { useState } from "react";
 
 import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Demands from "./components/Demands";
 
 function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false);
@@ -33,81 +35,8 @@ function App() {
     <div className="text-white bg-custom min-h-screen">
       <main className="flex flex-col space-y-[70px] pt-[70px]">
         <Header />
-        {/* Hero Section */}
-        <div className="flex flex-row justify-between items-center px-[150px]">
-          <div className="flex flex-col space-y-[25px]">
-            <p className="text-[96px] font-bold leading-tight">
-              ResLife Organized Workers
-            </p>
-            <p className="text-[24px]">
-              Representing all Resident Assistants and Residential Education
-              Assistants at Purdue University
-            </p>
-            <div className="flex flex-row items-center gap-[15px]">
-              <button className="btn-primary-yellow text-black w-[275px] h-[80px] rounded-[40px] text-[24px]">
-                About Us
-              </button>
-              <button className="btn-secondary-yellow text-white w-[275px] h-[80px] rounded-[40px] text-[24px]">
-                Sign A Card
-              </button>
-            </div>
-          </div>
-          <img src="/src/assets/row-logo.png" className="" />
-        </div>
-        {/* Demands Section */}
-        <div className="flex flex-col px-[150px]">
-          <p className="text-[64px] font-semibold pb-[25px]">We Demand...</p>
-          <div className="grid grid-cols-2 gap-[40px]">
-            <div className="flex flex-row gap-[15px]">
-              <img src="src/assets/MetNotification.svg" className="" />
-              <p>
-                ... that any ResLife student staff never be assigned to share a
-                living space with residents or a bedroom with any other
-                individuals.
-              </p>
-            </div>
-            <div className="flex flex-row gap-[15px]">
-              <img src="src/assets/MetNotification.svg" className="" />
-              <p>
-                ... that any ResLife student staff never be assigned to share a
-                living space with residents or a bedroom with any other
-                individuals.
-              </p>
-            </div>
-            <div className="flex flex-row gap-[15px]">
-              <img src="src/assets/AddressedNotification.svg" className="" />
-              <p>
-                ... that any ResLife student staff never be assigned to share a
-                living space with residents or a bedroom with any other
-                individuals.
-              </p>
-            </div>
-            <div className="flex flex-row gap-[15px]">
-              <img src="src/assets/AddressedNotification.svg" className="" />
-              <p>
-                ... that any ResLife student staff never be assigned to share a
-                living space with residents or a bedroom with any other
-                individuals.
-              </p>
-            </div>
-            <div className="flex flex-row gap-[15px]">
-              <img src="src/assets/AddressedNotification.svg" className="" />
-              <p>
-                ... that any ResLife student staff never be assigned to share a
-                living space with residents or a bedroom with any other
-                individuals.
-              </p>
-            </div>
-            <div className="flex flex-row gap-[15px]">
-              <img src="src/assets/UnaddressedNotification.svg" className="" />
-              <p>
-                ... that any ResLife student staff never be assigned to share a
-                living space with residents or a bedroom with any other
-                individuals.
-              </p>
-            </div>
-          </div>
-        </div>
+        <Hero />
+        <Demands />
         {/* Intimidation Reporting */}
         <div className="flex flex-row justify-between items-center px-[150px] gap-[50px]">
           <div className="space-y-[24px]">
