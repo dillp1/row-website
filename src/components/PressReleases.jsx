@@ -5,6 +5,7 @@ import PressItem from "./PressItem";
 function PressReleases() {
   return (
     <section
+      id="press"
       aria-label="Press Releases"
       className="flex flex-col justify-between px-[150px]"
     >

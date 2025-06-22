@@ -5,6 +5,7 @@ import FAQItem from "./FAQItem";
 function FAQ() {
   return (
     <section
+      id="faq"
       aria-label="FAQ"
       className="flex flex-col justify-between px-[150px]"
     >

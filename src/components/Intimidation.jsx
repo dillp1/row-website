@@ -5,6 +5,7 @@ import intimidationImage from "../assets/IntimidationReporting.png";
 function Intimidation() {
   return (
     <section
+      id="intimidation"
       aria-label="Intimidation Reporting"
       className="flex flex-row justify-between items-center px-[150px] gap-[50px]"
     >
