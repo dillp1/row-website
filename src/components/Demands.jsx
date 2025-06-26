@@ -11,7 +11,7 @@ function Demands() {
     <section
       id="demands"
       aria-label="Demands"
-      className="flex flex-col px-[150px]"
+      className="flex flex-col px-[150px] scroll-mt-[90px]"
     >
       <p className="text-[64px] font-semibold pb-[25px]">We Demand...</p>
       <div className="grid grid-cols-2 gap-[40px]">

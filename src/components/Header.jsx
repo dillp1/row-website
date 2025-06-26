@@ -5,11 +5,17 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="relative flex justify-between items-center px-4 lg:px-[150px] text-[24px] lg:text-[32px]">
-      <p className="font-bold">ROW</p>
+    <header className="header-nav bg-[#11182c] flex justify-between items-center w-full px-4 lg:px-[150px] text-[24px] lg:text-[32px] h-[80px] shadow-xl fixed z-50">
+      <a
+        href="#hero"
+        onClick={() => setIsMenuOpen(false)}
+        className="font-bold"
+      >
+        ROW
+      </a>
 
       {/* Desktop Nav */}
-      <nav className="header-nav hidden lg:flex flex-row gap-[50px]">
+      <nav className="hidden lg:flex flex-row gap-[50px]">
         <a href="#demands">Demands</a>
         <a href="#intimidation">Intimidation</a>
         <a href="#press">Press</a>
@@ -40,7 +46,7 @@ function Header() {
 
       {/* Mobile Nav */}
       {isMenuOpen && (
-        <div className="header-nav absolute top-full left-0 w-full bg-[#11182c] flex flex-col items-center gap-4 py-4 text-[20px] lg:hidden">
+        <div className="absolute top-full left-0 w-full bg-[#11182c] flex flex-col items-center gap-4 py-4 text-[20px] lg:hidden shadow-xl">
           <a href="#demands" onClick={() => setIsMenuOpen(false)}>
             Demands
           </a>

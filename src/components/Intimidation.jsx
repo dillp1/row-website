@@ -7,7 +7,7 @@ function Intimidation() {
     <section
       id="intimidation"
       aria-label="Intimidation Reporting"
-      className="flex flex-row justify-between items-center px-[150px] gap-[50px]"
+      className="flex flex-row justify-between items-center px-[150px] gap-[50px] scroll-mt-[90px]"
     >
       <div className="space-y-[24px]">
         <p className="text-[64px] font-semibold">Intimidation Reporting</p>

@@ -3,8 +3,9 @@ import React from "react";
 function Hero() {
   return (
     <section
+      id="hero"
       aria-label="Hero"
-      className="flex flex-row justify-between items-center px-[150px]"
+      className="flex flex-row justify-between items-center px-[150px] pt-[90px]"
     >
       <div className="flex flex-col space-y-[25px]">
         <p className="text-[96px] font-bold leading-tight">

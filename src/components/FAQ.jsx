@@ -7,7 +7,7 @@ function FAQ() {
     <section
       id="faq"
       aria-label="FAQ"
-      className="flex flex-col justify-between px-[150px]"
+      className="flex flex-col justify-between px-[150px] scroll-mt-[90px]"
     >
       <p className="text-[64px] font-semibold">FAQ</p>
       <FAQItem
