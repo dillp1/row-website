@@ -18,7 +18,7 @@ function Intimidation() {
           supervisors to threaten or coerce you regarding your participation in
           union activity. Email us with amy futher questions or concerns!
         </p>
-        <a href="https://iga.in.gov/laws/2018/ic/titles/4#4-15-17" className="text-blue-200 underline hover:text-blue-300 text-[18px] sm:text-[20px] lg:text-[24px] block">
+        <a href="https://iga.in.gov/laws/2018/ic/titles/4#4-15-17" className="underline text-yellow-300 hover:text-yellow-400 text-[18px] sm:text-[20px] lg:text-[24px] block">
           <p className="">
             Click here for more information on Indiana State Law regarding
             unionizing (collective bargaining), specifically IC 4-15-17.

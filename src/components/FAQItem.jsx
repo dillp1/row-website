@@ -20,7 +20,11 @@ function FAQItem({ question, answer }) {
           }`}
         />
       </div>
-      {open && <p className="text-[16px] sm:text-[17px] lg:text-[18px] pt-[15px] text-white">{answer}</p>}
+      {open && (
+        <div className="text-[16px] sm:text-[17px] lg:text-[18px] pt-[15px] text-white">
+          {answer}
+        </div>
+      )}
     </div>
   );
 }
