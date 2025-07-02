@@ -13,7 +13,7 @@ function Demands() {
       aria-label="Demands"
       className="flex flex-col px-6 md:px-[75px] lg:px-[150px] scroll-mt-[90px]"
     >
-      <p className="text-[64px] font-semibold pb-[25px]">We Demand...</p>
+      <p className="text-[40px] sm:text-[60px] lg:text-[96px] font-semibold pb-[25px]">We Demand...</p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px]">
         <DemandItem
           icon={metIcon}

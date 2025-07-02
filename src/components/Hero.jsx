@@ -5,7 +5,7 @@ function Hero() {
     <section
       id="hero"
       aria-label="Hero"
-      className="flex flex-col-reverse lg:flex-row justify-between items-center px-6 lg:px-[150px] pt-[90px] gap-[40px] lg:text-left"
+      className="flex flex-col-reverse lg:flex-row justify-between items-center px-6 lg:px-[150px] pt-[100px] lg:pt-[90px] gap-[40px]"
     >
       <div className="flex flex-col space-y-[25px] flex-1 min-w-0">
         <p className="text-[40px] sm:text-[60px] lg:text-[96px] font-bold leading-tight">
@@ -15,7 +15,7 @@ function Hero() {
           Representing all Resident Assistants and Residential Education
           Assistants at Purdue University
         </p>
-        <div className="flex flex-col sm:flex-row items-center gap-[15px]">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap items-center gap-4">
           <button className="btn-primary-yellow text-black w-full sm:w-[275px] h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px]">
             About Us
           </button>
@@ -27,7 +27,7 @@ function Hero() {
       <img
         src="/src/assets/row-logo.png"
         alt="ROW logo"
-        className="w-full max-w-[300px] lg:max-w-[600px] h-auto object-contain"
+        className="w-full max-w-[225px] sm:max-w-[275px] md:max-w-[275px] lg:max-w-[400px] h-auto object-contain"
       />
     </section>
   );
