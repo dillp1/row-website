@@ -15,13 +15,17 @@ function Hero() {
           Representing all Resident Assistants and Residential Education
           Assistants at Purdue University
         </p>
-        <div className="flex flex-col sm:flex-row sm:flex-wrap items-center gap-4">
-          <button className="btn-primary-yellow text-black w-full sm:w-[275px] h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px]">
-            About Us
-          </button>
-          <button className="btn-secondary-yellow text-white w-full sm:w-[275px] h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px]">
-            Sign A Card
-          </button>
+        <div className="flex flex-col sm:flex-row items-center justify-start gap-4 w-full max-w-[600px]">
+          <a href="#about" className="w-full sm:w-[275px]">
+            <button className="btn-primary-yellow text-black w-full h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px] cursor-pointer">
+              About Us
+            </button>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBfPoXGwzyh7Psh4YX-8RC4vlr-lNBhS0C3emjpsWpYeBydw/viewform" className="w-full sm:w-[275px]">
+            <button className="btn-secondary-yellow text-white w-full h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px] cursor-pointer">
+              Sign A Card
+            </button>
+          </a>
         </div>
       </div>
       <img
