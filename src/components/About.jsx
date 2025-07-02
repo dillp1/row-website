@@ -9,7 +9,6 @@ function About() {
     >
       <div className="space-y-[24px]">
         <p className="text-[40px] sm:text-[48px] lg:text-[64px] font-semibold">About Us</p>
-        <div className="w-[60px] h-[4px] bg-yellow-500 rounded-full mb-2 mt-[-12px]"></div>
         <p className="text-[18px] sm:text-[20px] lg:text-[24px] leading-relaxed">
           We are ResLife Organized Workers (ROW) — the Resident Assistant Union at Purdue
           University in Indiana. Our mission is to advocate for fair working conditions,
