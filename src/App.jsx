@@ -3,6 +3,7 @@ import "./vars.css";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import About from "./components/About";
 import Demands from "./components/Demands";
 import Intimidation from "./components/Intimidation";
 import PressReleases from "./components/PressReleases";
@@ -15,6 +16,7 @@ function App() {
       <main className="flex flex-col space-y-[50px]">
         <Header />
         <Hero />
+        <About />
         <Demands />
         <Intimidation />
         <PressReleases />
