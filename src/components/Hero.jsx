@@ -5,7 +5,7 @@ function Hero() {
     <section
       id="hero"
       aria-label="Hero"
-      className="flex flex-col-reverse lg:flex-row justify-between items-center px-6 lg:px-[150px] pt-[100px] lg:pt-[90px] gap-[40px]"
+      className="flex flex-col-reverse lg:flex-row justify-between items-center px-6 lg:px-[150px] pt-[100px] lg:pt-[150px] gap-[40px]"
     >
       <div className="flex flex-col space-y-[25px] flex-1 min-w-0">
         <p className="text-[40px] sm:text-[60px] lg:text-[96px] font-bold leading-tight">
