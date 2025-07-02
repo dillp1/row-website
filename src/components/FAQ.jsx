@@ -7,9 +7,9 @@ function FAQ() {
     <section
       id="faq"
       aria-label="FAQ"
-      className="flex flex-col justify-between px-[150px] scroll-mt-[90px]"
+      className="flex flex-col justify-between px-6 md:px-[75px] lg:px-[150px] scroll-mt-[90px]"
     >
-      <p className="text-[64px] font-semibold">FAQ</p>
+      <p className="text-[40px] sm:text-[48px] lg:text-[64px] font-semibold">FAQ</p>
       <FAQItem
         question="What does the acronym ROW stand for?"
         answer="ROW stands for ResLife Organized Workers—the official name of our union."
