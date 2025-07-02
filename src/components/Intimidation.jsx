@@ -11,7 +11,7 @@ function Intimidation() {
     >
       <div className="space-y-[24px]">
         <p className="text-[40px] sm:text-[48px] lg:text-[64px] font-semibold">Intimidation Reporting</p>
-        <p className="text-[18px] sm:text-[20px] ls:text-[24px]">
+        <p className="text-[18px] sm:text-[20px] lg:text-[24px]">
           Has a professional staff member made you feel uncomfortable or
           threatened regarding your participation in union activity?{" "}
           <span className="font-bold">Let us know!</span> It is illegal for

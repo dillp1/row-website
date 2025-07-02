@@ -27,7 +27,7 @@ function Hero() {
       <img
         src="/src/assets/row-logo.png"
         alt="ROW logo"
-        className="w-full max-w-[225px] sm:max-w-[275px] md:max-w-[275px] lg:max-w-[400px] h-auto object-contain"
+        className="w-full max-w-[225px] sm:max-w-[275px] md:max-w-[275px] lg:max-w-[600px] h-auto object-contain"
       />
     </section>
   );
