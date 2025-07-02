@@ -16,14 +16,26 @@ function Intimidation() {
           threatened regarding your participation in union activity?{" "}
           <span className="font-bold">Let us know!</span> It is illegal for
           supervisors to threaten or coerce you regarding your participation in
-          union activity.
+          union activity. Email us with amy futher questions or concerns!
         </p>
-        <button className="btn-primary-yellow text-black w-full sm:w-[275px] h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px]">
-          Email Us
-        </button>
+        <a href="https://iga.in.gov/laws/2018/ic/titles/4#4-15-17" className="text-blue-200 underline hover:text-blue-300 text-[18px] sm:text-[20px] lg:text-[24px] block">
+          <p className="">
+            Click here for more information on Indiana State Law regarding
+            unionizing (collective bargaining), specifically IC 4-15-17.
+          </p>
+        </a>
+        <p className="text-[18px] sm:text-[20px] lg:text-[24px] italic">
+          Of note: Purdue University is exempt from the prohibition on
+          collective bargaining with the state.
+        </p>
+        <a href="mailto:row.purdue.uni@gmail.com">
+          <button className="btn-primary-yellow text-black w-full sm:w-[275px] h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px]">
+            Email Us
+          </button>
+        </a>
       </div>
       <div>
-        <img src={intimidationImage} className="w-full max-w-[500px] lg:w-[400px] h-auto object-contain" />
+        <img src={intimidationImage} alt="" className="w-full max-w-[500px] lg:w-[400px] h-auto object-contain" />
       </div>
     </section>
   );

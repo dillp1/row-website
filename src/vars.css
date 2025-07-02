@@ -26,3 +26,8 @@
 .header-nav a {
   color: white !important;
 }
+
+button,
+a {
+  cursor: pointer;
+}
