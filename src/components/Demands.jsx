@@ -11,10 +11,10 @@ function Demands() {
     <section
       id="demands"
       aria-label="Demands"
-      className="flex flex-col px-[150px] scroll-mt-[90px]"
+      className="flex flex-col px-6 md:px-[75px] lg:px-[150px] scroll-mt-[90px]"
     >
       <p className="text-[64px] font-semibold pb-[25px]">We Demand...</p>
-      <div className="grid grid-cols-2 gap-[40px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px]">
         <DemandItem
           icon={metIcon}
           text="... that any ResLife student staff never be assigned to share a living space with residents or a bedroom with any other individuals."
