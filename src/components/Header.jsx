@@ -5,7 +5,7 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="header-nav bg-[#11182c] flex justify-between items-center w-full px-4 lg:px-[150px] text-[24px] lg:text-[32px] h-[80px] shadow-xl fixed z-50">
+    <header className="header-nav bg-[#11182c] flex justify-between items-center w-full px-6 lg:px-[150px] text-[24px] lg:text-[32px] h-[80px] shadow-xl fixed z-50">
       <a
         href="#hero"
         onClick={() => setIsMenuOpen(false)}
@@ -46,7 +46,7 @@ function Header() {
 
       {/* Mobile Nav */}
       {isMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-[#11182c] flex flex-col items-center gap-4 py-4 text-[20px] lg:hidden shadow-xl">
+        <div className="absolute top-full left-0 w-full bg-[#202d51] flex flex-col items-center gap-4 py-4 text-[20px] lg:hidden shadow-xl">
           <a href="#demands" onClick={() => setIsMenuOpen(false)}>
             Demands
           </a>
