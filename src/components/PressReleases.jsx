@@ -7,9 +7,9 @@ function PressReleases() {
     <section
       id="press"
       aria-label="Press Releases"
-      className="flex flex-col justify-between px-[150px] scroll-mt-[90px]"
+      className="flex flex-col justify-between px-6 md:px-[75px] lg:px-[150px] scroll-mt-[90px]"
     >
-      <p className="text-[64px] font-semibold">Press Releases</p>
+      <p className="text-[40px] sm:text-[48px] lg:text-[64px] font-semibold pb-6">Press Releases</p>
       <div className="flex flex-col gap-[18px]">
         <PressItem
           day="01"
