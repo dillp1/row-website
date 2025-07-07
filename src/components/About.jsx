@@ -10,7 +10,7 @@ function About() {
       <div className="space-y-6">
         {/* About Us */}
         <div className="">
-          <p className="text-[40px] sm:text-[60px] lg:text-[64px] font-semibold">
+          <p className="text-[40px] sm:text-[60px] lg:text-[64px] font-semibold leading-snug mb-2">
             About Us
           </p>
           <p className="text-[18px] sm:text-[20px] lg:text-[24px]">
@@ -30,7 +30,7 @@ function About() {
 
         {/* Why */}
         <div className="">
-          <p className="text-[40px] sm:text-[60px] lg:text-[64px] font-semibold">
+          <p className="text-[40px] sm:text-[60px] lg:text-[64px] font-semibold leading-snug mb-2">
             Why Do We Need a Union?
           </p>
           <div className="space-y-6 text-[18px] sm:text-[20px] lg:text-[24px]">
@@ -72,7 +72,7 @@ function About() {
 
         {/* How you can help */}
         <div className="">
-          <p className="text-[40px] sm:text-[60px] lg:text-[64px] font-semibold">
+          <p className="text-[40px] sm:text-[60px] lg:text-[64px] font-semibold leading-snug mb-2">
             How You Can Help
           </p>
           <div className="space-y-6 text-[18px] sm:text-[20px] lg:text-[24px] grid grid-cols-1 lg:grid-cols-3 lg:gap-[40px]">
