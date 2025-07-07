@@ -4,13 +4,13 @@ function PressItem({ day, date, title, source, link }) {
   return (
     <div className="flex flex-row items-center">
       {/* date */}
-      <div className="flex flex-col items-center leading-[1] min-w-[90px]">
+      <div className="flex flex-col items-center leading-[1] min-w-[60px]">
         <p className="text-[52px] sm:text-[52px] lg:text-[64px]">{day}</p>
         <p className="text-[14px] lg:text-[20px]">{date}</p>
       </div>
 
       {/* divider */}
-      <div className="w-[5px] h-[100px] bg-white rotate-[15deg] mx-6"></div>
+      <div className="w-[4px] h-[100px] bg-white rotate-[15deg] mx-6 shrink-0"></div>
 
       {/* info */}
       <div>
