@@ -1,6 +1,6 @@
 import React from "react";
 
-function PressItem({ day, date, title, source }) {
+function PressItem({ day, date, title, source, link }) {
   return (
     <div className="flex flex-row items-center">
       {/* date */}
@@ -14,8 +14,10 @@ function PressItem({ day, date, title, source }) {
 
       {/* info */}
       <div>
-        <p className="text-[18px] sm:text-[20px] lg:text-[24px] font-semibold">{title}</p>
-        <p className="text-[18px] sm:text-[20px] lg:text-[24px] italic">{source}</p>
+        <a href={link} className="hover:underline">
+          <p className="text-[18px] sm:text-[20px] lg:text-[24px] font-semibold">{title}</p>
+          <p className="text-[18px] sm:text-[20px] lg:text-[24px] italic">{source}</p>
+        </a>
       </div>
     </div>
   );
