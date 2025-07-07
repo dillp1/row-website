@@ -3,3 +3,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+html, body {
+  background-color: #212539;
+  margin: 0;
+  padding: 0;
+}
