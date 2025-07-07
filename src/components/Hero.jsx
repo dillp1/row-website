@@ -11,7 +11,7 @@ function Hero() {
         <p className="text-[40px] sm:text-[60px] lg:text-[96px] font-bold leading-tight">
           ResLife Organized Workers
         </p>
-        <p className="text-[16px] sm:text-[20px] lg:text-[24px]">
+        <p className="text-[18px] sm:text-[20px] lg:text-[24px]">
           Representing all Resident Assistants and Residential Education
           Assistants at Purdue University
         </p>
