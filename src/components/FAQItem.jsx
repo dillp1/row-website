@@ -15,7 +15,7 @@ function FAQItem({ question, answer }) {
         <img
           src="src/assets/chevron.svg"
           alt="chevron"
-          className={`w-6 h-6 transition-transform duration-300 ${
+          className={`w-6 h-6 ml-6 transition-transform duration-300 ${
             open ? "rotate-180" : ""
           }`}
         />
