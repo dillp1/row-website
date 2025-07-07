@@ -10,7 +10,7 @@ function Intimidation() {
       className="flex flex-col-reverse lg:flex-row justify-between items-center px-6 md:px-[75px] lg:px-[150px] gap-[40px] scroll-mt-[90px]"
     >
       <div className="space-y-[24px]">
-        <p className="text-[40px] sm:text-[48px] lg:text-[64px] font-semibold">Intimidation Reporting</p>
+        <p className="text-[40px] sm:text-[48px] lg:text-[64px] font-semibold leading-snug mb-2">Intimidation Reporting</p>
         <p className="text-[18px] sm:text-[20px] lg:text-[24px]">
           Has a professional staff member made you feel uncomfortable or
           threatened regarding your participation in union activity?{" "}
