@@ -1,5 +1,7 @@
 import React from "react";
 
+import logo from "../assets/row-logo.png";
+
 function Hero() {
   return (
     <section
@@ -29,7 +31,7 @@ function Hero() {
         </div>
       </div>
       <img
-        src="/src/assets/row-logo.png"
+        src={logo}
         alt="ROW logo"
         className="w-full max-w-[225px] sm:max-w-[275px] md:max-w-[275px] lg:max-w-[600px] h-auto object-contain"
       />
