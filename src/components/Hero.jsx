@@ -23,7 +23,10 @@ function Hero() {
               About Us
             </button>
           </a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBfPoXGwzyh7Psh4YX-8RC4vlr-lNBhS0C3emjpsWpYeBydw/viewform" className="w-full sm:w-[275px]">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScyYmeLkpljQs-8Ngmtu3Fg0zEr5xOT_pHMhwDg1t0IQSrSAA/viewform"
+            className="w-full sm:w-[275px]"
+          >
             <button className="btn-secondary-yellow text-white w-full h-[60px] sm:h-[80px] rounded-[40px] text-[18px] sm:text-[24px] cursor-pointer">
               Sign A Card
             </button>
