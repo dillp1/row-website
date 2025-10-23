@@ -24,12 +24,12 @@ function Initiatives() {
         </p>
         <Card>
           <CardHeader>
-            <CardTitle>Stand with Greg Geradot</CardTitle>
+            <CardTitle>Stand with Greg Gerardot</CardTitle>
             <CardDescription>10/23/2025</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
             <p>
-              About a half a month ago, our fellow RA, Greg Geradot, was fired
+              About a half a month ago, our fellow RA, Greg Gerardot, was fired
               for putting a Palestinian flag on an empty bulletin board. When he
               was asked to remove the flag, he covered it up with black butcher
               paper. After someone removed the cover without his knowledge, he
