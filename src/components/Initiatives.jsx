@@ -33,18 +33,23 @@ function Initiatives() {
               for putting a Palestinian flag on an empty bulletin board. When he
               was asked to remove the flag, he covered it up with black butcher
               paper. After someone removed the cover without his knowledge, he
-              was immediately fired despite having no points beforehand—meaning
-              he was given 8 points for one disciplinary action.
+              was{" "}
+              <span className="font-bold">
+                immediately fired despite having no points beforehand
+              </span>
+              —meaning he was given 8 points for one disciplinary action.
             </p>
             <p>
               Time and time again, University Residences has taken full
               advantage of the statement that they “reserve the right to
               terminate your appointment at any time during the academic year at
               its sole and absolute discretion” (Student Staff Appointment
-              Details 2025-2026). This is true despite lacking clear,
-              consistent, and comprehensive guidelines for their 8-point
-              disciplinary system. We deserve to know exactly what the grounds
-              are for termination.
+              Details 2025-2026). This is true despite{" "}
+              <span className="font-bold">
+                lacking clear, consistent, and comprehensive guidelines
+              </span>{" "}
+              for their 8-point disciplinary system. We deserve to know exactly
+              what the grounds are for termination.
             </p>
           </CardContent>
           <CardFooter className="flex-col gap-2">
