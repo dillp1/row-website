@@ -59,7 +59,7 @@ function Initiatives() {
               </Button>
             </a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfycmNGK-GoLCo-DYjL19hAIEG8Xst-wRVkRVTp5Ycu_TGMCg/viewform">
-              <Button type="submit" className="w-full">
+              <Button type="submit" className="w-full bg-[#11182c]">
                 Sign The Petition
               </Button>
             </a>
