@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-custom min-h-screen text-white">
-      <main className="flex flex-col space-y-[50px]">
+      <main className="flex flex-col space-y-10">
         <Header />
         <Hero />
         <Initiatives />
